@@ -1,0 +1,75 @@
+.stApp {
+    background: linear-gradient(135deg, #fff9e6 0%, #ffeacc 100%);
+    font-family: 'Poppins', sans-serif;
+    color: black !important; /* Ensure default text color is black */
+}
+
+h1 {
+    text-align: center;
+    color: #D35400 !important;
+    font-size: 3rem;
+    margin: 2rem 0 1.5rem;
+    font-weight: 600;
+}
+
+/* Fix for invisible text on inputs and labels */
+.stTextInput>label, 
+.stSelectbox>label, 
+.stMultiselect>label {
+    color: rgb(226, 18, 18) !important; /* Force dark text */
+    font-weight: 600 !important;
+    font-size: 1.05rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.stTextInput>div>div>input, 
+.stSelectbox>div>div>select, 
+.stMultiselect>div>div {
+    color: black !important; /* Ensure input text is visible */
+    background-color: #FFFFFF !important;
+    border: 2px solid #FF9800 !important;
+    padding: 1rem !important;
+    border-radius: 8px;
+    font-size: 1rem !important;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Button Styling */
+.stButton>button {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+    color: white !important;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Ensure background areas don't override text visibility */
+.css-1v0mbdj {
+    background: #FFFFFF !important;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    max-width: 500px;
+    margin: 2rem auto;
+    animation: fadeIn 0.6s ease-out;
+    color: black !important;
+}
+
+/* Ensure all text remains visible */
+body, .stApp, .stApp * {
+    color: black !important;
+}
+
+/* Focus states for accessibility */
+.stTextInput>div>div>input:focus {
+    border-color: #E67E22 !important;
+    box-shadow: 0 0 0 3px rgba(230,126,34,0.2) !important;
+    outline: none !important;
+}

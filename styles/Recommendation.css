@@ -1,0 +1,71 @@
+
+.stApp {
+    background: linear-gradient(135deg, #fff9e6 0%, #ffeacc 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #2C3E50 !important;
+}
+
+h1 {
+    text-align: center;
+    color: #D35400 !important;
+    font-size: 3.5rem !important;  /* Increased from 3rem */
+    margin: 1rem 0 !important;  /* Reduced margin */
+    font-weight: 600;
+}
+
+/* Recommendation content styling */
+.stMarkdown {
+    font-size: 1.4rem !important;  /* Increased from 1.1rem */
+    line-height: 1.6 !important;
+    margin: 0.5rem 0 !important;  /* Reduced margin */
+}
+
+/* Career path items styling */
+.stMarkdown p {
+    font-size: 1.4rem !important;
+    margin: 0.5rem 0 !important;  /* Reduced margin */
+}
+
+/* Links styling */
+.stMarkdown a {
+    font-size: 1.4rem !important;
+}
+
+/* Separator line styling */
+.stMarkdown hr {
+    margin: 0.8rem 0 !important;  /* Reduced margin */
+    border-color: #FF9800 !important;
+}
+
+/* Button styling */
+.stButton>button {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%) !important;
+    color: white !important;
+    font-size: 1.4rem !important;  /* Increased font size */
+    padding: 1rem 2rem !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin: 1rem auto !important;  /* Reduced margin */
+}
+
+/* Card styling */
+.css-1v0mbdj {
+    background: #FFFFFF !important;
+    padding: 1.5rem !important;  /* Reduced padding */
+    border-radius: 12px !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+    max-width: 800px !important;
+    margin: 1rem auto !important;  /* Reduced margin */
+    color: #2C3E50 !important;
+}
+
+/* Success rate visualization */
+.stPlotlyChart {
+    margin: 1rem 0 !important;  /* Reduced margin */
+}
+
+/* Analysis section */
+.stMarkdown h3 {
+    font-size: 2rem !important;
+    margin: 1rem 0 0.5rem !important;  /* Reduced margins */
+}
