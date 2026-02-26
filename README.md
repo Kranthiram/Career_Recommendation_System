@@ -27,16 +27,16 @@ Built as a learning project to combine Python data processing with basic web int
 
 ### 2. Home / Input Page
 ![Home Input Page](screenshots/home-input-page.png)  
-### **User enters name, selects standard, adds interests (e.g., Math, Biology, Music, Creativity) and skills (e.g., Analytical Thinking, Critical Thinking).
-**
+### User enters name, selects standard, adds interests (e.g., Math, Biology, Music, Creativity) and skills (e.g., Analytical Thinking, Critical Thinking).
+
 ### 3. Recommendation Page
 ![Recommendation Page](screenshots/recommendation-page.png)  
-### **Displays matched career paths (Biologist, Musician, Physicist) with scholarship names, eligibility, and links.
-**
+### Displays matched career paths (Biologist, Musician, Physicist) with scholarship names, eligibility, and links.
+
 ### 4. Analysis / Success Rates Chart
 ![Analysis Chart Page](screenshots/analysis-chart-page.png)  
-### **Shows success rates graph (line chart) and bullet list: Biologist (86.80%), Musician (88.76%), Physicist (73.37%).
-**
+### Shows success rates graph (line chart) and bullet list: Biologist (86.80%), Musician (88.76%), Physicist (73.37%).
+
 ### Clone the repo:
    ```bash
    git clone https://github.com/Kranthiram/Career_Recommendation_System.git
