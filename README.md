@@ -20,8 +20,6 @@ Built as a learning project to combine Python data processing with basic web int
 - Analytical visualization: Success rate comparison graph across recommended careers
 - Clean UI with sections for Home, Recommendations, Analysis, and Back navigation
 
-**Note**: This is a beginner-level project focused on full-flow application building. No advanced ML/database/login — uses static CSV data and simple logic.
-
 ## Screenshots
 
 ### 1. Sign-up Page 
